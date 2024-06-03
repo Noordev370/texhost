@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+textarea{
+    min-height: 100px;
+}

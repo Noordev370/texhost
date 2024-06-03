@@ -1,0 +1,21 @@
+{
+  "name": "texhost",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "laf": " bunx @biomejs/biome check --apply ./src",
+    "dev": "bun run --watch src/index.js",
+    "build": "bunx tsc"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/static": "^1.0.3",
+    "elysia": "^1.0.18"
+  }
+}
